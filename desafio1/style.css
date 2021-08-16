@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Lexend+Deca&display=swap');
+
+/*     font-family: 'Inter', sans-serif;
+
+    font-family: 'Lexend Deca', sans-serif;
+
+*/
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+* {
+    box-sizing: boder-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    max-width: 1550px;
+    background-color: #E5E5E5;
+}
+
+#menu {
+    width: 100%;
+    height: auto;
+    background-image: var(--linear);
+    color: var(--white);
+    margin-bottom: 80px;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.topo-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 62.5%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.topo-menu > h1 {
+    font-weight: 400;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    width: 62.5%;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 3px;
+}
+
+.pesquisa > input {
+    color: var(--white);
+    font-size: 1rem;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 1.7rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+.noticias {
+    margin: auto;
+    width: 62.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto {
+    line-height: 32px;
+}
+
+.texto > h2 {
+    font-weight: 400;
+    color: var(--title);
+    margin-bottom: 0.6rem;
+    font-size: 1.7rem;
+}
+
+.texto > p {
+    color: var(--text);
+    text-align: justify;
+}
+
+.controle-box {
+    margin: 30px 0px;
+    padding: 25px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #3131316b;
+}
+
+.data-like {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    line-height: 20px;
+    color: var(--text);
+}
+
+.relative {
+    font-size: 15px;
+}
+
+.icon-color {
+    color: var(--blue-dark);
+}
+
+@media screen and (max-width: 900px) {
+    .topo-menu {
+        width: 80%;
+    }
+
+    .pesquisa {
+        width: 80%;
+    }
+
+    .noticias {
+        width: 80%;
+    }
+}
+
