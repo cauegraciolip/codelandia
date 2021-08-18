@@ -15,7 +15,7 @@
             <div id="controle_topo">
                 <h1 class="titulo cor_titulo">Lorem ipsum dolor sit amet</h1>
                 <h2 class="texto cor_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</h2>
-                <input type="button" value="Botão" id="botao">
+                <input type="button" value="Botão" id="botao" class="btn">
             </div>
             <img src="image/image.svg" alt="imagem" id="image_topo">
         </div>
@@ -55,5 +55,18 @@
         </div>
 
     </main>
+
+    <footer id="footer">
+
+        <form action="submit" method="post">
+            <h1 class="cor_titulo footer_titulo">Entre em contato</h1>
+            <input class="input_design" type="text" name="nome" id="nome" placeholder="Nome">
+            <input class="input_design" type="email" name="email" id="email" placeholder="E-mail">
+            <input class="input_design" type="tel" name="telefone" id="telefone" pattern="[0-9] {5} - [0-9] {4}" placeholder="Telefone">
+            <textarea class="texto_form" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+            <button id="btn_mensagem" class="btn" type="submit">Enviar Mensagem</button>
+        </form>
+
+    </footer>
 </body>
 </html>

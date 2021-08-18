@@ -32,6 +32,7 @@ font-family: 'Merriweather', serif;
 
 #controle_topo {
     max-width: 389px;
+    margin: 0 auto;
 }
 
 .cor_titulo {
@@ -58,18 +59,22 @@ font-family: 'Merriweather', serif;
     padding: 5px 10px;
 }
 
-#botao {
+.btn {
     background-color: var(--buttonColor);
     color: var(--white);
-    width: 150px;
-    height: 50px;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    height: 50px;
     font-size: 20px;
     font-style: normal;
-    margin: 15px 10px;
     box-shadow: 8px 11px 15px -7px rgba(108,99,255,0.35);
+    cursor: pointer;
+}
+
+#botao {
+    width: 150px;
+    font-weight: 400;
+    margin: 15px 10px
 }
 
 #image_topo {
@@ -153,4 +158,47 @@ main {
 }
 .cor6 {
 background-color: #6663FF;
+}
+
+#footer {
+    background-color: var(--bgSite);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer_titulo {
+    font-size: 2.6rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-weight: 400;
+}
+
+.input_design {
+    display: block;
+    margin: 1rem auto;
+    width: 340px;
+    height: 40px;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding-left: 1rem;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.texto_form {
+    border: none;
+    padding: 1rem;
+    width: 340px;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    border-radius: 5px;
+}
+
+#btn_mensagem {
+    display: block;
+    margin: 2rem auto;
+    width: 340px;
+    height: 50px;
+    font-weight: 700;
 }
