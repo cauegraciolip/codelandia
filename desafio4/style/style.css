@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+
+/*
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Merriweather', serif;
+    */
+
+:root {
+    --green: #04c35c;
+    --blue: #2b6cb0;
+  
+    --white: #ffffff;
+    --white300: #f7fafc;
+  
+    --dark: #1a202c;
+    --input: #e8e8e8;
+}
+
+body {
+    max-width: 1440px;
+    height: 100%;
+}
+#controle_conteudo {
+    display: flex;
+    height: 100vh;
+}
+
+#principal_conteudo {
+    display: flex;
+    width: 375px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+#imagem_esq {
+    display: flex;
+    width: 50%;
+    background: var(--white300);
+    align-items: center;
+}
+
+#imagem_contatos {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#login {
+    width: 93%;
+}
+
+#bem_vindo {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+#titulo {
+    display: block;
+    font-size: 2.6rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+#form {
+    display: block;
+}
+
+.def {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: var(--dark);
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.input_box {
+    display: block;
+    width: 350px;
+    height: 17px;
+    background-color: var(--white);
+    padding: 2.2rem;
+    padding-left: 1.3rem;
+    color: var(--dark);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid var(--input);
+}
+
+#esqueceu_senha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_esquecer {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 2rem 0.4rem;
+}
+
+#radio {
+    border: 1px solid var(--input);
+    background-color: var(--white300);
+    cursor: pointer;
+}
+
+.color_azul {
+    color: var(--blue);
+}
+
+.color_azul:hover {
+    text-decoration: underline;
+}
+
+#google_login {
+    display: inline-block;
+}
+
+.btn_login {
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.color_verde {
+    background-color: var(--green);
+}
+
+.color_cinza {
+    background-color: var(--dark);
+    background-image: url("../image/google.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10%;
+    background-size: 20px;
+}
+
+#cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style_footer {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 5rem;
+    padding-right: 0.5rem;
+}
+
+@media all and (max-width: 800px) {
+    #imagem_esq {
+        display: none;
+    }
+
+    #principal_conteudo {
+        align-items: flex-start;
+        padding-top: 7rem;
+    }
+}
+
+@media all and (max-width: 400px) {
+    #principal_conteudo {
+        margin: 1rem;
+    }
+}
+

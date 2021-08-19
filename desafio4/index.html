@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/variaveis.css">
+    <title>Desafio 4 - Codelandia</title>
+</head>
+<body>
+
+    <main id="controle_conteudo">
+        <div id="imagem_esq">
+            <img id="imagem_contatos" src="image/image.svg" alt="imagem contatos">
+        </div>
+        <header id="principal_conteudo">
+            <main id="login">
+                <h2 id="bem_vindo">Bem vindo de volta</h2>
+                <h1 id="titulo">Faça login na sua conta</h1>
+                <form action="submit" id="form">
+                    <div id="input">
+                        <div id="input_email">
+                            <label for="nome" class="def">E-mail</label>
+                            <input class="input_box" type="email" name="email" id="email" placeholder="Insira seu e-mail">
+                        </div>
+                        <div id="input_senha">
+                            <label for="senha" class="def">Senha</label>
+                            <input class="input_box" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                        </div>
+                    </div>
+                    <div id="esqueceu_senha">
+                        <div id="controle_lembrar">
+                            <input type="radio" name="lembre" id="radio">
+                            <label for="lembrar" class="box_esquecer">Lembre de mim</label>
+                        </div>
+                        <a href="/" class="box_esquecer color_azul">Esqueceu sua senha?</a>
+                    </div>
+                    <div id="esquecer">
+                        <button type="submit" class="btn_login color_verde">Entrar</button>
+        
+        
+                        <button type="submit" class="btn_login color_cinza"> Ou faça seu login com o Google</button>
+        
+                    </div>
+                </form>
+                <footer id="cadastro">
+                    <p class="style_footer">Não tem uma conta?</p>
+                    <a href="/" class="color_azul style_footer">Cadastre-se</a>
+                </footer>
+            </main>
+        </header>
+        
+    </main>
+</body>
+</html>
